@@ -3,5 +3,6 @@
     grid-template-columns: repeat(4,2fr);
     margin-top: 50px;
     background: black;
+    cursor: pointer;
 
 }

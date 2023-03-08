@@ -12,7 +12,7 @@ function INav ({ToggleSearch}) {
     <div className='Nav'>
         <Navbar bg="light" expand="lg">
     <Container fluid>
-      <Navbar.Brand href="#">Movie</Navbar.Brand>
+      <Navbar.Brand href="#">Séries</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
         <Nav
@@ -21,19 +21,19 @@ function INav ({ToggleSearch}) {
           navbarScroll
         >
           <Nav.Link href="#action1">Home</Nav.Link>
-          <Nav.Link href="#action2">Link</Nav.Link>
-          <NavDropdown title="Link" id="navbarScrollingDropdown">
+          <Nav.Link href="#action2">Kids</Nav.Link>
+          <NavDropdown title="My Liste" id="navbarScrollingDropdown">
             <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action4">
-              Another action
+              Fanny
             </NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action5">
-              Something else here
+              +18
             </NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href="#" disabled>
-            Link
+            
           </Nav.Link>
         </Nav>
         <Form className="d-flex">

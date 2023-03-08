@@ -25,7 +25,7 @@ const handleAdd = () => {
         <input placeholder='Rate' name='Rate' onChange={handleChange}></input>
         <input placeholder='Img' name='Img' onChange={handleChange}></input>
         <br></br>
-        <button onClick={handleAdd}>Add new movie</button>
+        <button onClick={handleAdd}>Add New Série</button>
     </div>
   )
 }
