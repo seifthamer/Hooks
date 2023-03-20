@@ -145,7 +145,7 @@ function App() {
       <Routes>
         <Route path='/' element={<div>
         <Filter rateMov={rateMov} ></Filter>
-        <Add addNewMovie={addNewMovie}></Add>
+        <Add addNewMovie={addNewMovie} ></Add>
         <MoviesListe movies={movies.filter(e=>e.Title.toLocaleLowerCase().includes(search.toLocaleLowerCase()) && e.Rate>=rating )} deleteMovie={deleteMovie}></MoviesListe>
       </div>}></Route>
       <Route path='/Description/:id' element={<Description movies={movies}></Description>}></Route>
